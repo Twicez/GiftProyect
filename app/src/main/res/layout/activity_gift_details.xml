@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8E44AD"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8E2EC"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewMessage"
+            android:layout_width="72dp"
+            android:layout_height="53dp"
+            android:src="@drawable/pngegg" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageViewOptions"
+            android:layout_width="89dp"
+            android:layout_height="57dp"
+            android:src="@drawable/menu" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewGift"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/balon"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textViewGiftName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Balón"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewFriendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Juan Carlos Isai desea este regalo"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textViewGiftPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Precio: 29.99€"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonAddToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#6C3483"
+        android:text="Agregar al carrito"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1032978411185",
+    "project_id": "gift-3cae7",
+    "storage_bucket": "gift-3cae7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032978411185:android:32333022b6946f589c3c90",
+        "android_client_info": {
+          "package_name": "mx.edu.potros.gift"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa8ggS9EbNyRbRQbTxdrLloZbpt_beypI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
